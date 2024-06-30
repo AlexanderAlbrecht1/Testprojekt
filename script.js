@@ -1,13 +1,12 @@
 let myObject = {
     'name':'Alex',
     'age': 35,
-    'job2': {
-        'name':'AK',
-        'company':'Bosch'
+    'logJob': function (number) {
+        console.log('Alleskönner'+number)
     },
     'good_dude':true,
 };
 
-let objectKey = 'job' + 2
+myObject.logJob(565445)
 
-console.table(myObject);
+// console.table(myObject);
