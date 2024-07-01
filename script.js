@@ -52,3 +52,11 @@ let library = {
       ]
     }
   }
+
+console.log (
+    library.info.location.coordinates
+)
+
+console.log (
+    library.sections.fiction[1].book.status
+)
