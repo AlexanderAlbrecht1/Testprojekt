@@ -60,3 +60,8 @@ console.log (
 console.log (
     library.sections.fiction[1].book.status
 )
+
+for (let index = 0; index < library.sections.fiction.length; index++) {
+    const element = library.sections.fiction[index];
+    console.table(element);
+}
